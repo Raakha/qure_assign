@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Search People</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-form">
+        <input
+          type="text"
+          id="search-bar"
+          class="search-bar"
+          placeholder="Search for people"
+        />
+        <button
+          id="search-button"
+          class="search-button"
+          onclick="searchPeople()"
+        >
+          Find
+        </button>
+      </div>
+
+      <br />
+      <br />
+
+      <span id="loading" class="loader" hidden="true">Loading...</span>
+      <br />
+
+      <table id="details-table" class="details-table">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Vaccinated</th>
+        </tr>
+
+        <tr>
+          <td id="name-block"></td>
+          <td id="age-block"></td>
+          <td id="vaccinated-block"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
