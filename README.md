@@ -9,3 +9,4 @@ Languages used:
 
 Frontend: JavaScript, HTML, CSS
 Backend: NodeJS, Express.js Framework
+Database: MongoDB
