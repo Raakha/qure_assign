@@ -10,7 +10,7 @@ const loadingElement = document.getElementById("loading");
 
 // API URL
 // const SEARCH_API_URL = '<SEARCH_URL_HERE>';
-const SEARCH_API_URL = "https://ec2-54-226-177-102.compute-1.amazonaws.com:8000/search";
+const SEARCH_API_URL = "https://ec2-53-432-786-367.compute-1.amazonaws.com:8000/search";
 const MOCK_SEARCH_URL = "https://jsonplaceholder.typicode.com/users/1";
 
 // Hiding the table initially
